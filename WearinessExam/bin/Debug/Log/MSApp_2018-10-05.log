@@ -1,0 +1,96 @@
+﻿2018-10-05 09:59:09,842 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-05 09:59:09,843 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-05 09:59:09,843 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-05 09:59:14,752 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-05 14:41:19,273 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-05 14:41:19,275 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-05 14:41:19,275 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-05 14:41:26,216 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-05 14:43:09,900 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-05 14:43:09,902 [10] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-05 14:43:09,902 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-05 14:43:16,821 [10] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-05 14:46:02,900 [10] FATAL WearinessExam.exe - System.DllNotFoundException: 无法加载 DLL“CffTest.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 WearinessExam.Examination.CffDllWrapper.ClearOutputBuffer()
+   在 WearinessExam.Examination.DeviceFacade.setLight(Int32 colorLight, Int32 Liangheibi, Int32 LDLiangdu, Int32 BJLiangdu, Int32 frequencyLight) 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 56
+   在 WearinessExam.WearinessDetectForm.btnSettting_Click(Object sender, EventArgs e) 位置 D:\SourceCode\MedicalSystem\WearinessExam\WearinessDetectForm.cs:行号 543
+   在 MedicalSys.MSCommon.ImageButton.lblTemp_Click(Object sender, EventArgs e) 位置 D:\SourceCode\MedicalSystem\MSCommon\UIControl\ImageButton.cs:行号 124
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Label.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-10-05 14:46:08,138 [10] FATAL WearinessExam.exe - System.DllNotFoundException: 无法加载 DLL“CffTest.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 WearinessExam.Examination.CffDllWrapper.stopCapture()
+   在 WearinessExam.WearinessDetectForm.StopVideo() 位置 D:\SourceCode\MedicalSystem\WearinessExam\WearinessDetectForm.cs:行号 161
+   在 WearinessExam.WearinessDetectForm.StopAllTimers() 位置 D:\SourceCode\MedicalSystem\WearinessExam\WearinessDetectForm.cs:行号 593
+   在 WearinessExam.WearinessDetectForm.WearinessDetectForm_FormClosed(Object sender, FormClosedEventArgs e) 位置 D:\SourceCode\MedicalSystem\WearinessExam\WearinessDetectForm.cs:行号 608
+   在 System.Windows.Forms.Form.OnFormClosed(FormClosedEventArgs e)
+   在 System.Windows.Forms.Form.RaiseFormClosedOnAppExit()
+   在 System.Windows.Forms.Application.ExitInternal()
+   在 System.Windows.Forms.Application.Exit(CancelEventArgs e)
+   在 System.Windows.Forms.Application.Exit()
+   在 WearinessExam.Program.Application_ThreadException(Object sender, ThreadExceptionEventArgs e) 位置 D:\SourceCode\MedicalSystem\WearinessExam\Program.cs:行号 77
+   在 System.Windows.Forms.Application.ThreadContext.OnThreadException(Exception t)
+   在 System.Windows.Forms.Control.WndProcException(Exception e)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnThreadException(Exception e)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   在 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.RunDialog(Form form)
+   在 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   在 WearinessExam.IndexForm.imageButton1_Click(Object sender, EventArgs e) 位置 D:\SourceCode\MedicalSystem\WearinessExam\IndexForm.cs:行号 78
+   在 MedicalSys.MSCommon.ImageButton.lblTemp_Click(Object sender, EventArgs e) 位置 D:\SourceCode\MedicalSystem\MSCommon\UIControl\ImageButton.cs:行号 124
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Label.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-10-05 14:46:08,490 [10] ERROR WearinessExam.exe - 设备停止失败!
+2018-10-05 14:46:08,490 [10] ERROR WearinessExam.exe - System.DllNotFoundException: 无法加载 DLL“CffTest.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 WearinessExam.Examination.CffDllWrapper.ClearOutputBuffer()
+   在 WearinessExam.Examination.DeviceFacade.setLight(Int32 colorLight, Int32 Liangheibi, Int32 LDLiangdu, Int32 BJLiangdu, Int32 frequencyLight) 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 56
+   在 WearinessExam.Examination.DeviceFacade.CloseDevices() 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 703
+
+2018-10-05 14:46:08,558 [10] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-10-05 14:46:08,558 [10] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-10-05 14:46:15,276 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-05 14:46:15,278 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-05 14:46:15,278 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-05 14:46:21,742 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-05 15:27:50,688 [8] INFO  WearinessExam.exe - =====================================================================================
+2018-10-05 15:27:50,689 [8] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-05 15:27:50,690 [8] INFO  WearinessExam.exe - =====================================================================================
+2018-10-05 15:27:56,507 [8] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-05 16:08:39,112 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-05 16:08:39,113 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-05 16:08:39,114 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-05 16:08:50,890 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-05 16:10:57,736 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-05 16:10:57,738 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-05 16:10:57,738 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-05 16:11:07,765 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-05 16:13:58,327 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-05 16:13:58,328 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-05 16:13:58,328 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-05 16:14:05,468 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-05 16:46:41,694 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-05 16:46:41,696 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-05 16:46:41,696 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-05 16:46:48,863 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-05 16:55:42,591 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-05 16:55:42,593 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-05 16:55:42,593 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-05 16:55:52,928 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-05 17:06:40,453 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-05 17:06:40,454 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-05 17:06:40,455 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-05 17:06:47,812 [9] INFO  WearinessExam.exe - 用户:admin登录系统.

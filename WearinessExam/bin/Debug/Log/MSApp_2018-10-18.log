@@ -1,0 +1,380 @@
+﻿2018-10-18 18:22:57,887 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:22:57,888 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 18:22:57,888 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:23:04,795 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 18:24:20,052 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:24:20,053 [10] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 18:24:20,053 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:24:25,707 [10] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 18:26:23,203 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:26:23,205 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 18:26:23,205 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:26:29,329 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 18:39:13,339 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:39:13,341 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 18:39:13,341 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:39:16,514 [9] FATAL WearinessExam.exe - “WearinessExam.Examination.DeviceFacade”的类型初始值设定项引发异常。
+2018-10-18 18:39:33,537 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:39:33,539 [10] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 18:39:33,539 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:39:35,869 [10] FATAL WearinessExam.exe - “WearinessExam.Examination.DeviceFacade”的类型初始值设定项引发异常。
+2018-10-18 18:42:19,185 [8] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:42:19,187 [8] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 18:42:19,187 [8] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:42:35,605 [8] FATAL WearinessExam.exe - 未能加载文件或程序集“Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35”或它的某一个依赖项。系统找不到指定的文件。
+2018-10-18 18:42:42,782 [8] FATAL WearinessExam.exe - 未能加载文件或程序集“Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35”或它的某一个依赖项。系统找不到指定的文件。
+2018-10-18 18:42:45,266 [8] FATAL WearinessExam.exe - “WearinessExam.Examination.DeviceFacade”的类型初始值设定项引发异常。
+2018-10-18 18:43:24,484 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:43:24,487 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 18:43:24,487 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:43:27,233 [9] FATAL WearinessExam.exe - “WearinessExam.Examination.DeviceFacade”的类型初始值设定项引发异常。
+2018-10-18 18:49:59,303 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:49:59,306 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 18:49:59,306 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:50:06,230 [9] FATAL WearinessExam.exe - 未能加载文件或程序集“Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35”或它的某一个依赖项。系统找不到指定的文件。
+2018-10-18 18:50:09,872 [9] FATAL WearinessExam.exe - “WearinessExam.Examination.DeviceFacade”的类型初始值设定项引发异常。
+2018-10-18 18:51:24,827 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:51:24,830 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 18:51:24,830 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:51:31,680 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 18:53:58,047 [8] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:53:58,049 [8] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 18:53:58,049 [8] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:54:04,644 [8] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 18:54:12,938 [10] INFO  WearinessExam.exe - disconnectCamera.
+2018-10-18 18:54:14,612 [10] INFO  WearinessExam.exe - initCamera.
+2018-10-18 18:54:56,957 [10] ERROR WearinessExam.exe - 自检失败!
+2018-10-18 18:54:56,963 [10] ERROR WearinessExam.exe - GxIAPINET.CGalaxyException: {{-1004}{GenICam::Client::CDevice::CDevice:line[108]}{TL Error:The device has been open}}
+   在 daheng_xkk.PupilAPI.Connect_Camera()
+   在 WearinessExam.Examination.DeviceFacade.DeviceSelfCheck(String& statusText) 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 1042
+
+2018-10-18 18:54:59,737 [8] ERROR WearinessExam.exe - 设备停止失败!
+2018-10-18 18:54:59,739 [8] ERROR WearinessExam.exe - System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.DiscardOutBuffer()
+   在 WearinessExam.Examination.Comm.ClearOutputBuffer() 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\Comm.cs:行号 213
+   在 WearinessExam.Examination.DeviceFacade.setLight(Int32 colorLight, Int32 Liangheibi, Int32 LDLiangdu, Int32 frequencyLight) 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 91
+   在 WearinessExam.Examination.DeviceFacade.CloseDevices() 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 972
+
+2018-10-18 18:54:59,739 [8] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-10-18 18:54:59,739 [8] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-10-18 18:55:11,989 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:55:11,990 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 18:55:11,991 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:55:18,045 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 18:55:18,524 [6] INFO  WearinessExam.exe - disconnectCamera.
+2018-10-18 18:55:26,592 [6] INFO  WearinessExam.exe - initCamera.
+2018-10-18 18:57:42,363 [8] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:57:42,364 [8] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 18:57:42,364 [8] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:57:49,220 [8] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 18:57:49,672 [10] INFO  WearinessExam.exe - disconnectCamera.
+2018-10-18 18:57:49,673 [10] INFO  WearinessExam.exe - initCamera.
+2018-10-18 18:57:53,417 [10] ERROR WearinessExam.exe - 自检失败!
+2018-10-18 18:57:53,422 [10] ERROR WearinessExam.exe - GxIAPINET.CGalaxyException: {{-1004}{GenICam::Client::CDevice::CDevice:line[108]}{TL Error:The device has been open}}
+   在 daheng_xkk.PupilAPI.Connect_Camera()
+   在 WearinessExam.Examination.DeviceFacade.DeviceSelfCheck(String& statusText) 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 1042
+
+2018-10-18 18:57:54,580 [8] ERROR WearinessExam.exe - 设备停止失败!
+2018-10-18 18:57:54,582 [8] ERROR WearinessExam.exe - System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.DiscardOutBuffer()
+   在 WearinessExam.Examination.Comm.ClearOutputBuffer() 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\Comm.cs:行号 213
+   在 WearinessExam.Examination.DeviceFacade.setLight(Int32 colorLight, Int32 Liangheibi, Int32 LDLiangdu, Int32 frequencyLight) 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 91
+   在 WearinessExam.Examination.DeviceFacade.CloseDevices() 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 972
+
+2018-10-18 18:57:54,582 [8] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-10-18 18:57:54,582 [8] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-10-18 18:58:35,163 [8] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:58:35,165 [8] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 18:58:35,165 [8] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:58:45,489 [8] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 18:59:21,011 [10] INFO  WearinessExam.exe - disconnectCamera.
+2018-10-18 18:59:31,765 [10] INFO  WearinessExam.exe - initCamera.
+2018-10-18 18:59:50,373 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:59:50,375 [10] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 18:59:50,375 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 18:59:54,071 [10] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 18:59:58,915 [6] INFO  WearinessExam.exe - disconnectCamera.
+2018-10-18 18:59:58,916 [6] INFO  WearinessExam.exe - initCamera.
+2018-10-18 19:00:01,444 [6] INFO  WearinessExam.exe - setComPort COM1
+2018-10-18 19:00:01,444 [6] INFO  WearinessExam.exe - OnCommunicate.
+2018-10-18 19:00:02,528 [6] INFO  WearinessExam.exe - IsCommflag.
+2018-10-18 19:00:02,529 [6] INFO  WearinessExam.exe - QueRen_But2.
+2018-10-18 19:00:02,530 [6] ERROR WearinessExam.exe - 自检失败!
+2018-10-18 19:00:05,995 [10] ERROR WearinessExam.exe - 设备停止失败!
+2018-10-18 19:00:05,999 [10] ERROR WearinessExam.exe - System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.DiscardOutBuffer()
+   在 WearinessExam.Examination.Comm.ClearOutputBuffer() 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\Comm.cs:行号 213
+   在 WearinessExam.Examination.DeviceFacade.setLight(Int32 colorLight, Int32 Liangheibi, Int32 LDLiangdu, Int32 frequencyLight) 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 91
+   在 WearinessExam.Examination.DeviceFacade.CloseDevices() 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 972
+
+2018-10-18 19:00:06,000 [10] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-10-18 19:00:06,000 [10] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-10-18 19:00:44,369 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:00:44,371 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 19:00:44,371 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:00:52,849 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 19:00:59,185 [11] INFO  WearinessExam.exe - disconnectCamera.
+2018-10-18 19:00:59,186 [11] INFO  WearinessExam.exe - initCamera.
+2018-10-18 19:02:09,527 [9] ERROR WearinessExam.exe - 设备停止失败!
+2018-10-18 19:02:09,535 [9] ERROR WearinessExam.exe - System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.DiscardOutBuffer()
+   在 WearinessExam.Examination.Comm.ClearOutputBuffer() 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\Comm.cs:行号 213
+   在 WearinessExam.Examination.DeviceFacade.setLight(Int32 colorLight, Int32 Liangheibi, Int32 LDLiangdu, Int32 frequencyLight) 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 91
+   在 WearinessExam.Examination.DeviceFacade.CloseDevices() 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 972
+
+2018-10-18 19:02:09,536 [9] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-10-18 19:02:09,536 [9] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-10-18 19:02:17,734 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:02:17,735 [10] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 19:02:17,735 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:02:22,989 [10] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 19:02:23,408 [6] INFO  WearinessExam.exe - disconnectCamera.
+2018-10-18 19:02:23,409 [6] INFO  WearinessExam.exe - initCamera.
+2018-10-18 19:02:32,973 [6] INFO  WearinessExam.exe - setComPort COM11
+2018-10-18 19:02:35,580 [6] INFO  WearinessExam.exe - OnCommunicate.
+2018-10-18 19:03:10,722 [10] INFO  WearinessExam.exe - 设备停止.
+2018-10-18 19:03:10,722 [10] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-10-18 19:04:23,565 [19] FATAL WearinessExam.exe - 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+2018-10-18 19:05:01,400 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:05:01,401 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 19:05:01,402 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:05:09,694 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 19:05:10,100 [11] INFO  WearinessExam.exe - disconnectCamera.
+2018-10-18 19:05:10,101 [11] INFO  WearinessExam.exe - initCamera.
+2018-10-18 19:05:18,359 [11] INFO  WearinessExam.exe - setComPort COM1
+2018-10-18 19:05:19,902 [11] INFO  WearinessExam.exe - OnCommunicate.
+2018-10-18 19:06:29,088 [8] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:06:29,089 [8] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 19:06:29,089 [8] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:06:43,733 [8] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 19:06:44,156 [10] INFO  WearinessExam.exe - disconnectCamera.
+2018-10-18 19:06:44,157 [10] INFO  WearinessExam.exe - initCamera.
+2018-10-18 19:06:51,512 [10] INFO  WearinessExam.exe - setComPort COM1
+2018-10-18 19:06:52,899 [10] INFO  WearinessExam.exe - OnCommunicate.
+2018-10-18 19:08:29,901 [10] INFO  WearinessExam.exe - IsCommflag.
+2018-10-18 19:08:29,901 [10] INFO  WearinessExam.exe - QueRen_But2.
+2018-10-18 19:08:29,919 [10] INFO  WearinessExam.exe - 自检成功!
+2018-10-18 19:10:10,618 [8] INFO  WearinessExam.exe - 瞳孔对光反应停止
+2018-10-18 19:10:18,510 [8] ERROR WearinessExam.exe - 设备停止失败!
+2018-10-18 19:10:18,513 [8] ERROR WearinessExam.exe - GxIAPINET.CGalaxyException: {NULL pointer dereferenced}
+   在 daheng_xkk.PupilAPI.Disconnect_Camera()
+   在 WearinessExam.Examination.DeviceFacade.CloseDevices() 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 977
+
+2018-10-18 19:10:18,513 [8] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-10-18 19:10:18,513 [8] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-10-18 19:13:14,791 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:13:14,793 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 19:13:14,793 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:13:21,205 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 19:13:21,628 [11] INFO  WearinessExam.exe - disconnectCamera.
+2018-10-18 19:13:21,629 [11] INFO  WearinessExam.exe - initCamera.
+2018-10-18 19:13:23,982 [11] INFO  WearinessExam.exe - setComPort COM1
+2018-10-18 19:13:23,982 [11] INFO  WearinessExam.exe - OnCommunicate.
+2018-10-18 19:13:27,900 [11] INFO  WearinessExam.exe - IsCommflag.
+2018-10-18 19:13:27,902 [11] INFO  WearinessExam.exe - QueRen_But2.
+2018-10-18 19:13:27,905 [11] ERROR WearinessExam.exe - 自检失败!
+2018-10-18 19:15:11,197 [9] ERROR WearinessExam.exe - 设备停止失败!
+2018-10-18 19:15:11,201 [9] ERROR WearinessExam.exe - System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.DiscardOutBuffer()
+   在 WearinessExam.Examination.Comm.ClearOutputBuffer() 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\Comm.cs:行号 213
+   在 WearinessExam.Examination.DeviceFacade.setLight(Int32 colorLight, Int32 Liangheibi, Int32 LDLiangdu, Int32 frequencyLight) 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 92
+   在 WearinessExam.Examination.DeviceFacade.CloseDevices() 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 973
+
+2018-10-18 19:15:11,201 [9] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-10-18 19:15:11,201 [9] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-10-18 19:15:15,257 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:15:15,259 [10] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 19:15:15,259 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:15:21,815 [10] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 19:15:22,205 [6] INFO  WearinessExam.exe - disconnectCamera.
+2018-10-18 19:15:22,206 [6] INFO  WearinessExam.exe - initCamera.
+2018-10-18 19:15:24,899 [6] INFO  WearinessExam.exe - setComPort COM1
+2018-10-18 19:15:29,070 [6] INFO  WearinessExam.exe - OnCommunicate.
+2018-10-18 19:15:34,980 [6] INFO  WearinessExam.exe - IsCommflag.
+2018-10-18 19:18:33,316 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:18:33,317 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 19:18:33,317 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:18:39,669 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 19:18:40,071 [11] INFO  WearinessExam.exe - disconnectCamera.
+2018-10-18 19:18:40,072 [11] INFO  WearinessExam.exe - initCamera.
+2018-10-18 19:18:42,348 [11] INFO  WearinessExam.exe - setComPort COM1
+2018-10-18 19:18:49,958 [11] INFO  WearinessExam.exe - OnCommunicate.
+2018-10-18 19:20:10,522 [11] INFO  WearinessExam.exe - IsCommflag.
+2018-10-18 19:20:10,522 [11] INFO  WearinessExam.exe - QueRen_But2.
+2018-10-18 19:20:10,546 [11] INFO  WearinessExam.exe - 自检成功!
+2018-10-18 19:20:16,872 [26] FATAL WearinessExam.exe - 参数无效。
+2018-10-18 19:20:17,841 [25] FATAL WearinessExam.exe - 参数无效。
+2018-10-18 19:26:45,580 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:26:45,582 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 19:26:45,582 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:26:52,672 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 19:26:53,087 [11] INFO  WearinessExam.exe - disconnectCamera.
+2018-10-18 19:26:53,088 [11] INFO  WearinessExam.exe - initCamera.
+2018-10-18 19:26:55,469 [11] INFO  WearinessExam.exe - setComPort COM1
+2018-10-18 19:26:55,469 [11] INFO  WearinessExam.exe - OnCommunicate.
+2018-10-18 19:28:56,776 [11] INFO  WearinessExam.exe - IsCommflag.
+2018-10-18 19:28:56,776 [11] INFO  WearinessExam.exe - QueRen_But2.
+2018-10-18 19:28:56,777 [11] ERROR WearinessExam.exe - 自检失败!
+2018-10-18 19:28:59,574 [9] ERROR WearinessExam.exe - 设备停止失败!
+2018-10-18 19:28:59,584 [9] ERROR WearinessExam.exe - System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.DiscardOutBuffer()
+   在 WearinessExam.Examination.Comm.ClearOutputBuffer() 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\Comm.cs:行号 213
+   在 WearinessExam.Examination.DeviceFacade.setLight(Int32 colorLight, Int32 Liangheibi, Int32 LDLiangdu, Int32 frequencyLight) 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 92
+   在 WearinessExam.Examination.DeviceFacade.CloseDevices() 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 973
+
+2018-10-18 19:28:59,584 [9] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-10-18 19:28:59,584 [9] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-10-18 19:29:44,133 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:29:44,142 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 19:29:44,142 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:29:46,440 [9] ERROR WearinessExam.exe - 设备停止失败!
+2018-10-18 19:29:46,444 [9] ERROR WearinessExam.exe - System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.DiscardOutBuffer()
+   在 WearinessExam.Examination.Comm.ClearOutputBuffer() 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\Comm.cs:行号 213
+   在 WearinessExam.Examination.DeviceFacade.setLight(Int32 colorLight, Int32 Liangheibi, Int32 LDLiangdu, Int32 frequencyLight) 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 92
+   在 WearinessExam.Examination.DeviceFacade.CloseDevices() 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 973
+
+2018-10-18 19:29:46,444 [9] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-10-18 19:29:46,444 [9] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-10-18 19:30:20,139 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:30:20,141 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 19:30:20,141 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:30:27,754 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 19:30:28,169 [11] INFO  WearinessExam.exe - disconnectCamera.
+2018-10-18 19:30:28,170 [11] INFO  WearinessExam.exe - initCamera.
+2018-10-18 19:30:30,617 [11] INFO  WearinessExam.exe - setComPort COM1
+2018-10-18 19:30:30,618 [11] INFO  WearinessExam.exe - OnCommunicate.
+2018-10-18 19:30:30,674 [17] INFO  WearinessExam.exe - ok
+2018-10-18 19:30:30,793 [11] INFO  WearinessExam.exe - IsCommflag.
+2018-10-18 19:30:30,794 [11] INFO  WearinessExam.exe - QueRen_But2.
+2018-10-18 19:30:30,795 [11] ERROR WearinessExam.exe - 自检失败!
+2018-10-18 19:30:32,459 [9] ERROR WearinessExam.exe - 设备停止失败!
+2018-10-18 19:30:32,463 [9] ERROR WearinessExam.exe - System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.DiscardOutBuffer()
+   在 WearinessExam.Examination.Comm.ClearOutputBuffer() 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\Comm.cs:行号 213
+   在 WearinessExam.Examination.DeviceFacade.setLight(Int32 colorLight, Int32 Liangheibi, Int32 LDLiangdu, Int32 frequencyLight) 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 92
+   在 WearinessExam.Examination.DeviceFacade.CloseDevices() 位置 D:\MedicalSystem1018\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 973
+
+2018-10-18 19:30:32,463 [9] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-10-18 19:30:32,463 [9] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-10-18 19:34:10,894 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:34:10,896 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 19:34:10,896 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:34:17,961 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 19:34:18,360 [11] INFO  WearinessExam.exe - disconnectCamera.
+2018-10-18 19:34:18,362 [11] INFO  WearinessExam.exe - initCamera.
+2018-10-18 19:34:20,694 [11] INFO  WearinessExam.exe - setComPort COM1
+2018-10-18 19:34:20,694 [11] INFO  WearinessExam.exe - OnCommunicate.
+2018-10-18 19:34:20,739 [11] INFO  WearinessExam.exe - IsCommflag.
+2018-10-18 19:34:20,739 [11] INFO  WearinessExam.exe - QueRen_But2.
+2018-10-18 19:34:20,761 [11] INFO  WearinessExam.exe - 自检成功!
+2018-10-18 19:42:28,434 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:42:28,435 [10] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 19:42:28,435 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:42:37,425 [10] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 19:42:37,836 [6] INFO  WearinessExam.exe - disconnectCamera.
+2018-10-18 19:42:37,837 [6] INFO  WearinessExam.exe - initCamera.
+2018-10-18 19:42:40,243 [6] INFO  WearinessExam.exe - setComPort COM1
+2018-10-18 19:42:40,244 [6] INFO  WearinessExam.exe - OnCommunicate.
+2018-10-18 19:42:40,286 [6] INFO  WearinessExam.exe - IsCommflag.
+2018-10-18 19:42:40,286 [6] INFO  WearinessExam.exe - QueRen_But2.
+2018-10-18 19:42:40,308 [6] INFO  WearinessExam.exe - 自检成功!
+2018-10-18 19:44:16,160 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:44:16,164 [10] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 19:44:16,164 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:44:19,868 [10] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 19:44:20,286 [6] INFO  WearinessExam.exe - disconnectCamera.
+2018-10-18 19:44:20,287 [6] INFO  WearinessExam.exe - initCamera.
+2018-10-18 19:44:22,614 [6] INFO  WearinessExam.exe - setComPort COM1
+2018-10-18 19:44:22,615 [6] INFO  WearinessExam.exe - OnCommunicate.
+2018-10-18 19:44:22,659 [6] INFO  WearinessExam.exe - IsCommflag.
+2018-10-18 19:44:22,659 [6] INFO  WearinessExam.exe - QueRen_But2.
+2018-10-18 19:44:22,673 [6] INFO  WearinessExam.exe - 自检成功!
+2018-10-18 19:54:57,977 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:54:57,979 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 19:54:57,979 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 19:55:03,679 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 19:55:04,136 [11] INFO  WearinessExam.exe - disconnectCamera.
+2018-10-18 19:55:04,137 [11] INFO  WearinessExam.exe - initCamera.
+2018-10-18 19:55:06,316 [11] INFO  WearinessExam.exe - setComPort COM1
+2018-10-18 19:55:06,316 [11] INFO  WearinessExam.exe - OnCommunicate.
+2018-10-18 19:55:06,375 [11] INFO  WearinessExam.exe - IsCommflag.
+2018-10-18 19:55:06,375 [11] INFO  WearinessExam.exe - QueRen_But2.
+2018-10-18 19:55:06,396 [11] INFO  WearinessExam.exe - 自检成功!
+2018-10-18 19:59:28,539 [9] INFO  WearinessExam.exe - CFF1启动!
+2018-10-18 19:59:59,026 [9] INFO  WearinessExam.exe - CFF1停止!
+2018-10-18 20:00:02,810 [9] FATAL WearinessExam.exe - 将截断字符串或二进制数据。
+语句已终止。
+2018-10-18 20:00:26,099 [9] INFO  WearinessExam.exe - 瞳孔对光反应测试启动！
+2018-10-18 20:01:11,594 [26] FATAL WearinessExam.exe - 无法从带有索引像素格式的图像创建 Graphics 对象。
+2018-10-18 20:01:16,610 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 20:01:16,612 [10] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 20:01:16,612 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 20:01:27,297 [10] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 20:01:27,728 [6] INFO  WearinessExam.exe - disconnectCamera.
+2018-10-18 20:01:27,729 [6] INFO  WearinessExam.exe - initCamera.
+2018-10-18 20:01:29,465 [6] INFO  WearinessExam.exe - setComPort COM1
+2018-10-18 20:01:29,465 [6] INFO  WearinessExam.exe - OnCommunicate.
+2018-10-18 20:01:29,526 [6] INFO  WearinessExam.exe - IsCommflag.
+2018-10-18 20:01:29,527 [6] INFO  WearinessExam.exe - QueRen_But2.
+2018-10-18 20:01:29,537 [6] INFO  WearinessExam.exe - 自检成功!
+2018-10-18 20:05:09,392 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 20:05:09,394 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 20:05:09,394 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 20:05:14,421 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 20:05:14,845 [6] INFO  WearinessExam.exe - disconnectCamera.
+2018-10-18 20:05:14,846 [6] INFO  WearinessExam.exe - initCamera.
+2018-10-18 20:05:17,349 [6] INFO  WearinessExam.exe - setComPort COM1
+2018-10-18 20:05:17,349 [6] INFO  WearinessExam.exe - OnCommunicate.
+2018-10-18 20:05:17,403 [6] INFO  WearinessExam.exe - IsCommflag.
+2018-10-18 20:05:17,405 [6] INFO  WearinessExam.exe - QueRen_But2.
+2018-10-18 20:05:17,447 [6] INFO  WearinessExam.exe - 自检成功!
+2018-10-18 20:06:16,413 [25] FATAL WearinessExam.exe - 无法从带有索引像素格式的图像创建 Graphics 对象。
+2018-10-18 20:06:22,984 [26] FATAL WearinessExam.exe - 无法从带有索引像素格式的图像创建 Graphics 对象。
+2018-10-18 20:11:33,315 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 20:11:33,317 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 20:11:33,317 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 20:11:40,062 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 20:11:40,502 [11] INFO  WearinessExam.exe - disconnectCamera.
+2018-10-18 20:11:40,503 [11] INFO  WearinessExam.exe - initCamera.
+2018-10-18 20:11:42,957 [11] INFO  WearinessExam.exe - setComPort COM1
+2018-10-18 20:11:42,957 [11] INFO  WearinessExam.exe - OnCommunicate.
+2018-10-18 20:11:43,007 [11] INFO  WearinessExam.exe - IsCommflag.
+2018-10-18 20:11:43,007 [11] INFO  WearinessExam.exe - QueRen_But2.
+2018-10-18 20:11:43,016 [11] INFO  WearinessExam.exe - 自检成功!
+2018-10-18 20:19:50,992 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 20:19:50,993 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 20:19:50,993 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 20:19:56,564 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 20:19:56,969 [11] INFO  WearinessExam.exe - disconnectCamera.
+2018-10-18 20:19:56,970 [11] INFO  WearinessExam.exe - initCamera.
+2018-10-18 20:20:02,123 [11] INFO  WearinessExam.exe - setComPort COM1
+2018-10-18 20:20:02,124 [11] INFO  WearinessExam.exe - OnCommunicate.
+2018-10-18 20:20:02,172 [11] INFO  WearinessExam.exe - IsCommflag.
+2018-10-18 20:20:02,172 [11] INFO  WearinessExam.exe - QueRen_But2.
+2018-10-18 20:20:02,181 [11] INFO  WearinessExam.exe - 自检成功!
+2018-10-18 20:23:53,096 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 20:23:53,097 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 20:23:53,097 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 20:24:01,752 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 20:24:02,155 [11] INFO  WearinessExam.exe - disconnectCamera.
+2018-10-18 20:24:02,156 [11] INFO  WearinessExam.exe - initCamera.
+2018-10-18 20:24:05,200 [11] INFO  WearinessExam.exe - setComPort COM1
+2018-10-18 20:24:05,200 [11] INFO  WearinessExam.exe - OnCommunicate.
+2018-10-18 20:24:05,245 [11] INFO  WearinessExam.exe - IsCommflag.
+2018-10-18 20:24:05,245 [11] INFO  WearinessExam.exe - QueRen_But2.
+2018-10-18 20:24:05,256 [11] INFO  WearinessExam.exe - 自检成功!
+2018-10-18 20:27:01,541 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 20:27:01,543 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-18 20:27:01,543 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-18 20:27:10,168 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-18 20:27:10,592 [11] INFO  WearinessExam.exe - disconnectCamera.
+2018-10-18 20:27:10,593 [11] INFO  WearinessExam.exe - initCamera.
+2018-10-18 20:27:13,047 [11] INFO  WearinessExam.exe - setComPort COM1
+2018-10-18 20:27:13,047 [11] INFO  WearinessExam.exe - OnCommunicate.
+2018-10-18 20:27:13,088 [11] INFO  WearinessExam.exe - IsCommflag.
+2018-10-18 20:27:13,088 [11] INFO  WearinessExam.exe - QueRen_But2.
+2018-10-18 20:27:13,099 [11] INFO  WearinessExam.exe - 自检成功!
+2018-10-18 20:27:41,612 [29] FATAL WearinessExam.exe - 无法从带有索引像素格式的图像创建 Graphics 对象。
+2018-10-18 20:27:42,986 [28] FATAL WearinessExam.exe - 无法从带有索引像素格式的图像创建 Graphics 对象。

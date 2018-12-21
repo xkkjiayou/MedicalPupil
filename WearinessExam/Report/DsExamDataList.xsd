@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsExamDataList" targetNamespace="http://tempuri.org/DsExamDataList.xsd" xmlns:mstns="http://tempuri.org/DsExamDataList.xsd" xmlns="http://tempuri.org/DsExamDataList.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="zhmsdbConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="zhmsdbConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WearinessExam.Properties.Settings.GlobalReference.Default.zhmsdbConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsExamDataList" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DsExamDataList" msprop:Generator_UserDSName="DsExamDataList">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EXAM" msprop:Generator_TableClassName="EXAMDataTable" msprop:Generator_TableVarName="tableEXAM" msprop:Generator_TablePropName="EXAM" msprop:Generator_RowDeletingName="EXAMRowDeleting" msprop:Generator_RowChangingName="EXAMRowChanging" msprop:Generator_RowEvHandlerName="EXAMRowChangeEventHandler" msprop:Generator_RowDeletedName="EXAMRowDeleted" msprop:Generator_UserTableName="EXAM" msprop:Generator_RowChangedName="EXAMRowChanged" msprop:Generator_RowEvArgName="EXAMRowChangeEvent" msprop:Generator_RowClassName="EXAMRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="姓名" msprop:Generator_ColumnVarNameInTable="column姓名" msprop:Generator_ColumnPropNameInRow="姓名" msprop:Generator_ColumnPropNameInTable="姓名Column" msprop:Generator_UserColumnName="姓名">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="性别" msprop:Generator_ColumnVarNameInTable="column性别" msprop:Generator_ColumnPropNameInRow="性别" msprop:Generator_ColumnPropNameInTable="性别Column" msprop:Generator_UserColumnName="性别">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="出生日期" msprop:Generator_ColumnVarNameInTable="column出生日期" msprop:Generator_ColumnPropNameInRow="出生日期" msprop:Generator_ColumnPropNameInTable="出生日期Column" msprop:Generator_UserColumnName="出生日期" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="单位" msprop:Generator_ColumnVarNameInTable="column单位" msprop:Generator_ColumnPropNameInRow="单位" msprop:Generator_ColumnPropNameInTable="单位Column" msprop:Generator_UserColumnName="单位">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="检测时间" msprop:Generator_ColumnVarNameInTable="column检测时间" msprop:Generator_ColumnPropNameInRow="检测时间" msprop:Generator_ColumnPropNameInTable="检测时间Column" msprop:Generator_UserColumnName="检测时间" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="检测情景" msprop:Generator_ColumnVarNameInTable="column检测情景" msprop:Generator_ColumnPropNameInRow="检测情景" msprop:Generator_ColumnPropNameInTable="检测情景Column" msprop:Generator_UserColumnName="检测情景" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="检测参数" msprop:Generator_ColumnVarNameInTable="column检测参数" msprop:Generator_ColumnPropNameInRow="检测参数" msprop:Generator_ColumnPropNameInTable="检测参数Column" msprop:Generator_UserColumnName="检测参数" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="医生" msprop:Generator_ColumnVarNameInTable="column医生" msprop:Generator_ColumnPropNameInRow="医生" msprop:Generator_ColumnPropNameInTable="医生Column" msprop:Generator_UserColumnName="医生">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CFF1" msprop:Generator_ColumnVarNameInTable="columnCFF1" msprop:Generator_ColumnPropNameInRow="CFF1" msprop:Generator_ColumnPropNameInTable="CFF1Column" msprop:Generator_UserColumnName="CFF1" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CFF2" msprop:Generator_ColumnVarNameInTable="columnCFF2" msprop:Generator_ColumnPropNameInRow="CFF2" msprop:Generator_ColumnPropNameInTable="CFF2Column" msprop:Generator_UserColumnName="CFF2" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CFF" msprop:Generator_ColumnVarNameInTable="columnCFF" msprop:Generator_ColumnPropNameInRow="CFF" msprop:Generator_ColumnPropNameInTable="CFFColumn" msprop:Generator_UserColumnName="CFF" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PCV" msprop:Generator_ColumnVarNameInTable="columnPCV" msprop:Generator_ColumnPropNameInRow="PCV" msprop:Generator_ColumnPropNameInTable="PCVColumn" msprop:Generator_UserColumnName="PCV" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PCV2" msprop:Generator_ColumnVarNameInTable="columnPCV2" msprop:Generator_ColumnPropNameInRow="PCV2" msprop:Generator_ColumnPropNameInTable="PCV2Column" msprop:Generator_UserColumnName="PCV2" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PCL" msprop:Generator_ColumnVarNameInTable="columnPCL" msprop:Generator_ColumnPropNameInRow="PCL" msprop:Generator_ColumnPropNameInTable="PCLColumn" msprop:Generator_UserColumnName="PCL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PCL2" msprop:Generator_ColumnVarNameInTable="columnPCL2" msprop:Generator_ColumnPropNameInRow="PCL2" msprop:Generator_ColumnPropNameInTable="PCL2Column" msprop:Generator_UserColumnName="PCL2" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PCR" msprop:Generator_ColumnVarNameInTable="columnPCR" msprop:Generator_ColumnPropNameInRow="PCR" msprop:Generator_ColumnPropNameInTable="PCRColumn" msprop:Generator_UserColumnName="PCR" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PCR2" msprop:Generator_ColumnVarNameInTable="columnPCR2" msprop:Generator_ColumnPropNameInRow="PCR2" msprop:Generator_ColumnPropNameInTable="PCR2Column" msprop:Generator_UserColumnName="PCR2" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PMD" msprop:Generator_ColumnVarNameInTable="columnPMD" msprop:Generator_ColumnPropNameInRow="PMD" msprop:Generator_ColumnPropNameInTable="PMDColumn" msprop:Generator_UserColumnName="PMD" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PMD2" msprop:Generator_ColumnVarNameInTable="columnPMD2" msprop:Generator_ColumnPropNameInRow="PMD2" msprop:Generator_ColumnPropNameInTable="PMD2Column" msprop:Generator_UserColumnName="PMD2" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PCT" msprop:Generator_ColumnVarNameInTable="columnPCT" msprop:Generator_ColumnPropNameInRow="PCT" msprop:Generator_ColumnPropNameInTable="PCTColumn" msprop:Generator_UserColumnName="PCT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PCT2" msprop:Generator_ColumnVarNameInTable="columnPCT2" msprop:Generator_ColumnPropNameInRow="PCT2" msprop:Generator_ColumnPropNameInTable="PCT2Column" msprop:Generator_UserColumnName="PCT2" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PCD" msprop:Generator_ColumnVarNameInTable="columnPCD" msprop:Generator_ColumnPropNameInRow="PCD" msprop:Generator_ColumnPropNameInTable="PCDColumn" msprop:Generator_UserColumnName="PCD" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PCD2" msprop:Generator_ColumnVarNameInTable="columnPCD2" msprop:Generator_ColumnPropNameInRow="PCD2" msprop:Generator_ColumnPropNameInTable="PCD2Column" msprop:Generator_UserColumnName="PCD2" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PCA" msprop:Generator_ColumnVarNameInTable="columnPCA" msprop:Generator_ColumnPropNameInRow="PCA" msprop:Generator_ColumnPropNameInTable="PCAColumn" msprop:Generator_UserColumnName="PCA" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PCA2" msprop:Generator_ColumnVarNameInTable="columnPCA2" msprop:Generator_ColumnPropNameInRow="PCA2" msprop:Generator_ColumnPropNameInTable="PCA2Column" msprop:Generator_UserColumnName="PCA2" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PID" msprop:Generator_ColumnVarNameInTable="columnPID" msprop:Generator_ColumnPropNameInRow="PID" msprop:Generator_ColumnPropNameInTable="PIDColumn" msprop:Generator_UserColumnName="PID" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PID2" msprop:Generator_ColumnVarNameInTable="columnPID2" msprop:Generator_ColumnPropNameInRow="PID2" msprop:Generator_ColumnPropNameInTable="PID2Column" msprop:Generator_UserColumnName="PID2" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

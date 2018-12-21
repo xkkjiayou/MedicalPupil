@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Scenario>
+  <Item>静息</Item>
+  <Item>飞行</Item>
+  <Item>昼</Item>
+  <Item>夜</Item>
+  <Item>平原</Item>
+  <Item>高原</Item>
+</Scenario>

@@ -1,0 +1,53 @@
+﻿2018-10-02 09:50:52,813 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-02 09:50:52,815 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-02 09:50:52,815 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-02 09:51:01,010 [9] FATAL WearinessExam.exe - 未能加载文件或程序集“Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35”或它的某一个依赖项。系统找不到指定的文件。
+2018-10-02 09:53:18,252 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-02 09:53:18,253 [10] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-02 09:53:18,253 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-02 09:53:24,894 [10] FATAL WearinessExam.exe - 未能加载文件或程序集“Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35”或它的某一个依赖项。系统找不到指定的文件。
+2018-10-02 09:53:26,489 [10] ERROR WearinessExam.exe - 设备停止失败!
+2018-10-02 09:53:26,497 [10] ERROR WearinessExam.exe - System.DllNotFoundException: 无法加载 DLL“CffTest.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 WearinessExam.Examination.CffDllWrapper.ClearOutputBuffer()
+   在 WearinessExam.Examination.DeviceFacade.setLight(Int32 colorLight, Int32 Liangheibi, Int32 LDLiangdu, Int32 BJLiangdu, Int32 frequencyLight) 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 56
+   在 WearinessExam.Examination.DeviceFacade.CloseDevices() 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 703
+
+2018-10-02 09:53:26,497 [10] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-10-02 09:53:26,497 [10] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-10-02 09:58:43,514 [8] INFO  WearinessExam.exe - =====================================================================================
+2018-10-02 09:58:43,515 [8] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-02 09:58:43,515 [8] INFO  WearinessExam.exe - =====================================================================================
+2018-10-02 09:59:12,371 [8] FATAL WearinessExam.exe - 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+2018-10-02 09:59:23,070 [8] ERROR WearinessExam.exe - 设备停止失败!
+2018-10-02 09:59:23,073 [8] ERROR WearinessExam.exe - System.DllNotFoundException: 无法加载 DLL“CffTest.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 WearinessExam.Examination.CffDllWrapper.ClearOutputBuffer()
+   在 WearinessExam.Examination.DeviceFacade.setLight(Int32 colorLight, Int32 Liangheibi, Int32 LDLiangdu, Int32 BJLiangdu, Int32 frequencyLight) 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 56
+   在 WearinessExam.Examination.DeviceFacade.CloseDevices() 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 703
+
+2018-10-02 09:59:23,073 [8] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-10-02 09:59:23,073 [8] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-10-02 10:08:14,154 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-02 10:08:14,155 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-02 10:08:14,155 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-02 10:09:25,706 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-02 10:09:25,707 [10] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-02 10:09:25,707 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-02 10:10:03,733 [10] ERROR WearinessExam.exe - 设备停止失败!
+2018-10-02 10:10:03,737 [10] ERROR WearinessExam.exe - System.DllNotFoundException: 无法加载 DLL“CffTest.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 WearinessExam.Examination.CffDllWrapper.ClearOutputBuffer()
+   在 WearinessExam.Examination.DeviceFacade.setLight(Int32 colorLight, Int32 Liangheibi, Int32 LDLiangdu, Int32 BJLiangdu, Int32 frequencyLight) 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 56
+   在 WearinessExam.Examination.DeviceFacade.CloseDevices() 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 703
+
+2018-10-02 10:10:03,737 [10] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-10-02 10:10:03,737 [10] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-10-02 10:15:31,838 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-02 10:15:31,839 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-02 10:15:31,839 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-02 10:15:55,963 [9] ERROR WearinessExam.exe - 设备停止失败!
+2018-10-02 10:15:55,967 [9] ERROR WearinessExam.exe - System.DllNotFoundException: 无法加载 DLL“CffTest.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 WearinessExam.Examination.CffDllWrapper.ClearOutputBuffer()
+   在 WearinessExam.Examination.DeviceFacade.setLight(Int32 colorLight, Int32 Liangheibi, Int32 LDLiangdu, Int32 BJLiangdu, Int32 frequencyLight) 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 56
+   在 WearinessExam.Examination.DeviceFacade.CloseDevices() 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 703
+
+2018-10-02 10:15:55,967 [9] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-10-02 10:15:55,967 [9] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================

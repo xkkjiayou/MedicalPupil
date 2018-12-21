@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5C233944-EF85-4794-BBF9-C3DA95819617}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WearinessExam</RootNamespace>
+    <AssemblyName>WearinessExam</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>camera_32px.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GxIAPINET, Version=1.0.6417.17503, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dll\GxIAPINET.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=e44a2bc38ed2c13c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <HintPath>..\Library\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph, Version=5.1.2.878, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseValueDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseValueDialog.Designer.cs">
+      <DependentUpon>BaseValueDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChartsWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChartsWindow.Designer.cs">
+      <DependentUpon>ChartsWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConstMessage.cs" />
+    <Compile Include="DAO\BaseValueDAO.cs" />
+    <Compile Include="DAO\ExamInfoDAO.cs" />
+    <Compile Include="DAO\ExportDataDAO.cs" />
+    <Compile Include="DO\BaseValue.cs" />
+    <Compile Include="DO\BaseValueComparer.cs" />
+    <Compile Include="DO\ExamInfo.cs" />
+    <Compile Include="EditPatientDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditPatientDialog.Designer.cs">
+      <DependentUpon>EditPatientDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Examination\CFF2TimeExcutor.cs" />
+    <Compile Include="Examination\Comm.cs" />
+    <Compile Include="Examination\DeviceFacade.cs" />
+    <Compile Include="Examination\FatigueDllWrapper.cs" />
+    <Compile Include="Examination\IBackGroundExcutor.cs" />
+    <Compile Include="Examination\ImageData.cs" />
+    <Compile Include="Examination\PupilExam.cs" />
+    <Compile Include="Examination\PupilExamData.cs" />
+    <Compile Include="ExamInfoWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamInfoWindow.Designer.cs">
+      <DependentUpon>ExamInfoWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExportDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExportDialog.Designer.cs">
+      <DependentUpon>ExportDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportCoverDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportCoverDialog.Designer.cs">
+      <DependentUpon>ImportCoverDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PupilAPI.cs" />
+    <Compile Include="PupilBMP.cs" />
+    <Compile Include="ReportWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportWindow.Designer.cs">
+      <DependentUpon>ReportWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DsExamDataList1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsExamDataList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\zhmsdbDataSet.cs">
+      <DependentUpon>zhmsdbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\zhmsdbDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>zhmsdbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SelfCheckWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelfCheckWindow.Designer.cs">
+      <DependentUpon>SelfCheckWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemSettingsForm.Designer.cs">
+      <DependentUpon>SystemSettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\EditUserDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\EditUserDialog.Designer.cs">
+      <DependentUpon>EditUserDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Examination\CFF1TimeExcutor.cs" />
+    <Compile Include="Examination\CffDllWrapper.cs" />
+    <Compile Include="Examination\DataFileHelper.cs" />
+    <Compile Include="Examination\ExamDataCenter.cs" />
+    <Compile Include="Examination\PupilTrackTimeExcutor.cs" />
+    <Compile Include="Examination\TimeExcutor.cs" />
+    <Compile Include="User\NewUserDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\NewUserDialog.Designer.cs">
+      <DependentUpon>NewUserDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IndexForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IndexForm.Designer.cs">
+      <DependentUpon>IndexForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewPatientDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewPatientDialog.Designer.cs">
+      <DependentUpon>NewPatientDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientMgmtForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientMgmtForm.Designer.cs">
+      <DependentUpon>PatientMgmtForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsForm.Designer.cs">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\UserMgmtForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\UserMgmtForm.Designer.cs">
+      <DependentUpon>UserMgmtForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\BaseValueHelper.cs" />
+    <Compile Include="Utility\DataExporter.cs" />
+    <Compile Include="Utility\PatientDataImporter.cs" />
+    <Compile Include="Utility\PupilExamHelper.cs" />
+    <Compile Include="ViewChartsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewChartsForm.Designer.cs">
+      <DependentUpon>ViewChartsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WearinessDetectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WearinessDetectForm.Designer.cs">
+      <DependentUpon>WearinessDetectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="win32Bitmap.cs" />
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseValueDialog.resx">
+      <DependentUpon>BaseValueDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChartsWindow.resx">
+      <DependentUpon>ChartsWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditPatientDialog.resx">
+      <DependentUpon>EditPatientDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamInfoWindow.resx">
+      <DependentUpon>ExamInfoWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportDialog.resx">
+      <DependentUpon>ExportDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportCoverDialog.resx">
+      <DependentUpon>ImportCoverDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportWindow.resx">
+      <DependentUpon>ReportWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\ExamDataListReport.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\WearinessExamReport.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelfCheckWindow.resx">
+      <DependentUpon>SelfCheckWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemSettingsForm.resx">
+      <DependentUpon>SystemSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\EditUserDialog.resx">
+      <DependentUpon>EditUserDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewPatientDialog.resx">
+      <DependentUpon>NewPatientDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\NewUserDialog.resx">
+      <DependentUpon>NewUserDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientMgmtForm.resx">
+      <DependentUpon>PatientMgmtForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsForm.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IndexForm.resx">
+      <DependentUpon>IndexForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UserMgmtForm.resx">
+      <DependentUpon>UserMgmtForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewChartsForm.resx">
+      <DependentUpon>ViewChartsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WearinessDetectForm.resx">
+      <DependentUpon>WearinessDetectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="MSApp.ini">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Report\DsExamDataList.xsc">
+      <DependentUpon>DsExamDataList.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DsExamDataList.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsExamDataList1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\DsExamDataList.xss">
+      <DependentUpon>DsExamDataList.xsd</DependentUpon>
+    </None>
+    <None Include="Report\zhmsdbDataSet.xsc">
+      <DependentUpon>zhmsdbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Report\zhmsdbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>zhmsdbDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\zhmsdbDataSet.xss">
+      <DependentUpon>zhmsdbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Template\WearinessTemplate.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccessor\DataAccessor.csproj">
+      <Project>{9F46F4EC-6321-4570-99A0-0C61E34DC1AE}</Project>
+      <Name>DataAccessor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MSCommon\MSCommon.csproj">
+      <Project>{e7f1572d-977d-4439-9ab0-9d74baefe63e}</Project>
+      <Name>MSCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MSFramework\MSFramework.csproj">
+      <Project>{8D4013C2-49D7-49E5-8625-12FB240DBF35}</Project>
+      <Name>MSFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="camera_32px.ico" />
+    <Content Include="Data\DataTemplate.xml" />
+    <Content Include="DefaultScenario.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="images\btn_exit2.png" />
+    <None Include="images\btn_exit.png" />
+    <None Include="images\bg_index.png" />
+    <None Include="images\bg_index.jpg" />
+    <None Include="images\camera_128px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\bg_login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\btn_login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\btn_login2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\btn_test.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\btn_test2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\btn_data.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\btn_data2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\btn_help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\btn_help2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\btn_logoff2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\btn_logoff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\btn_setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\btn_setting2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\btn_tester.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\btn_tester2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\btn_users.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\btn_users2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\title.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

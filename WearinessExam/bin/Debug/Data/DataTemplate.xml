@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ExamData>
+  <!-- CFF低到高 300个 -->
+  <CffLow2High></CffLow2High>
+  <!-- CFF低到高 300个 -->
+  <CffHigh2Low></CffHigh2Low>
+  <!-- 瞳孔对光反应 左眼1500个 -->
+  <PdLeft></PdLeft>
+  <!-- 瞳孔对光反应 右眼1500个 -->
+  <PdRight></PdRight>
+</ExamData>

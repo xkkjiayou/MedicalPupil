@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E7F1572D-977D-4439-9AB0-9D74BAEFE63E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MSCommon</RootNamespace>
+    <AssemblyName>MSCommon</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph, Version=5.1.2.878, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business\DataAccessProxy.cs" />
+    <Compile Include="Business\LoginInfoManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UIControl\BackGroundWorkerDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIControl\BackGroundWorkerDialog.Designer.cs">
+      <DependentUpon>BackGroundWorkerDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIControl\BasePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UIControl\CommonMessage.cs" />
+    <Compile Include="UIControl\CurveGraphics.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIControl\CurveGraphics.Designer.cs">
+      <DependentUpon>CurveGraphics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIControl\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIControl\BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIControl\DatagridViewCheckBoxHeaderCell.cs" />
+    <Compile Include="UIControl\DataGridViewWithCheckBoxColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UIControl\IBackGroundWorkerObject.cs" />
+    <Compile Include="UIControl\ImageButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIControl\ImageButton.Designer.cs">
+      <DependentUpon>ImageButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIControl\UltraDateTimePicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UIControl\UltraDateTimePicker.Designer.cs">
+      <DependentUpon>UltraDateTimePicker.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\title.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIControl\BackGroundWorkerDialog.resx">
+      <DependentUpon>BackGroundWorkerDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIControl\CurveGraphics.resx">
+      <DependentUpon>CurveGraphics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIControl\CurveGraphics.zh-Hans.resx">
+      <DependentUpon>CurveGraphics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIControl\BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIControl\ImageButton.resx">
+      <DependentUpon>ImageButton.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\close_default.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\close_click.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccessor\DataAccessor.csproj">
+      <Project>{9f46f4ec-6321-4570-99a0-0c61e34dc1ae}</Project>
+      <Name>DataAccessor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MSFramework\MSFramework.csproj">
+      <Project>{8d4013c2-49d7-49e5-8625-12fb240dbf35}</Project>
+      <Name>MSFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\background.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

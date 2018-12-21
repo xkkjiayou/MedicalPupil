@@ -1,0 +1,170 @@
+﻿2018-10-04 06:29:00,515 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 06:29:00,516 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-04 06:29:00,516 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 06:29:44,929 [9] ERROR WearinessExam.exe - 设备停止失败!
+2018-10-04 06:29:44,943 [9] ERROR WearinessExam.exe - System.DllNotFoundException: 无法加载 DLL“CffTest.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 WearinessExam.Examination.CffDllWrapper.ClearOutputBuffer()
+   在 WearinessExam.Examination.DeviceFacade.setLight(Int32 colorLight, Int32 Liangheibi, Int32 LDLiangdu, Int32 BJLiangdu, Int32 frequencyLight) 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 56
+   在 WearinessExam.Examination.DeviceFacade.CloseDevices() 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 703
+
+2018-10-04 06:29:44,944 [9] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-10-04 06:29:44,944 [9] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-10-04 06:38:49,811 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 06:38:49,812 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-04 06:38:49,813 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 06:40:20,229 [1] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 06:40:20,230 [1] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-04 06:40:20,230 [1] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 06:40:36,905 [1] FATAL WearinessExam.exe - 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+2018-10-04 06:40:38,584 [1] INFO  WearinessExam.exe - 访问受测员信息管理画面.
+2018-10-04 06:40:42,058 [1] ERROR WearinessExam.exe - 设备停止失败!
+2018-10-04 06:40:42,061 [1] ERROR WearinessExam.exe - System.DllNotFoundException: 无法加载 DLL“CffTest.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 WearinessExam.Examination.CffDllWrapper.ClearOutputBuffer()
+   在 WearinessExam.Examination.DeviceFacade.setLight(Int32 colorLight, Int32 Liangheibi, Int32 LDLiangdu, Int32 BJLiangdu, Int32 frequencyLight) 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 56
+   在 WearinessExam.Examination.DeviceFacade.CloseDevices() 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 703
+
+2018-10-04 06:40:42,061 [1] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-10-04 06:40:42,061 [1] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-10-04 06:41:29,021 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 06:41:29,022 [10] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-04 06:41:29,023 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 06:41:31,822 [10] INFO  WearinessExam.exe - 访问受测员信息管理画面.
+2018-10-04 06:41:43,137 [10] INFO  WearinessExam.exe - 访问用户信息管理画面.
+2018-10-04 06:42:13,960 [10] ERROR WearinessExam.exe - 设备停止失败!
+2018-10-04 06:42:13,967 [10] ERROR WearinessExam.exe - System.DllNotFoundException: 无法加载 DLL“CffTest.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 WearinessExam.Examination.CffDllWrapper.ClearOutputBuffer()
+   在 WearinessExam.Examination.DeviceFacade.setLight(Int32 colorLight, Int32 Liangheibi, Int32 LDLiangdu, Int32 BJLiangdu, Int32 frequencyLight) 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 56
+   在 WearinessExam.Examination.DeviceFacade.CloseDevices() 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 703
+
+2018-10-04 06:42:13,967 [10] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-10-04 06:42:13,967 [10] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-10-04 06:44:11,415 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 06:44:11,416 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-04 06:44:11,416 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 06:44:15,945 [9] INFO  WearinessExam.exe - 访问用户信息管理画面.
+2018-10-04 06:44:19,241 [9] ERROR WearinessExam.exe - 设备停止失败!
+2018-10-04 06:44:19,246 [9] ERROR WearinessExam.exe - System.DllNotFoundException: 无法加载 DLL“CffTest.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 WearinessExam.Examination.CffDllWrapper.ClearOutputBuffer()
+   在 WearinessExam.Examination.DeviceFacade.setLight(Int32 colorLight, Int32 Liangheibi, Int32 LDLiangdu, Int32 BJLiangdu, Int32 frequencyLight) 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 56
+   在 WearinessExam.Examination.DeviceFacade.CloseDevices() 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 703
+
+2018-10-04 06:44:19,247 [9] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-10-04 06:44:19,247 [9] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-10-04 06:44:32,005 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 06:44:32,010 [10] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-04 06:44:32,010 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 06:44:34,957 [10] INFO  WearinessExam.exe - 访问用户信息管理画面.
+2018-10-04 06:44:43,762 [10] INFO  WearinessExam.exe - 访问用户信息管理画面.
+2018-10-04 06:45:02,488 [10] FATAL WearinessExam.exe - 列名 'EXAM_PARAMS' 无效。
+2018-10-04 06:45:03,865 [10] FATAL WearinessExam.exe - 列名 'EXAM_PARAMS' 无效。
+2018-10-04 06:45:12,319 [10] INFO  WearinessExam.exe - 访问受测员信息管理画面.
+2018-10-04 06:45:15,666 [10] INFO  WearinessExam.exe - 访问用户信息管理画面.
+2018-10-04 06:45:23,488 [10] INFO  WearinessExam.exe - 访问用户信息管理画面.
+2018-10-04 06:46:06,668 [10] ERROR WearinessExam.exe - 设备停止失败!
+2018-10-04 06:46:06,672 [10] ERROR WearinessExam.exe - System.DllNotFoundException: 无法加载 DLL“CffTest.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 WearinessExam.Examination.CffDllWrapper.ClearOutputBuffer()
+   在 WearinessExam.Examination.DeviceFacade.setLight(Int32 colorLight, Int32 Liangheibi, Int32 LDLiangdu, Int32 BJLiangdu, Int32 frequencyLight) 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 56
+   在 WearinessExam.Examination.DeviceFacade.CloseDevices() 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 703
+
+2018-10-04 06:46:06,672 [10] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-10-04 06:46:06,673 [10] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-10-04 06:47:09,873 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 06:47:09,874 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-04 06:47:09,874 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 06:47:16,490 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-04 10:11:07,798 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 10:11:07,799 [10] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-04 10:11:07,799 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 10:11:13,729 [10] ERROR WearinessExam.exe - 设备停止失败!
+2018-10-04 10:11:13,734 [10] ERROR WearinessExam.exe - System.DllNotFoundException: 无法加载 DLL“CffTest.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 WearinessExam.Examination.CffDllWrapper.ClearOutputBuffer()
+   在 WearinessExam.Examination.DeviceFacade.setLight(Int32 colorLight, Int32 Liangheibi, Int32 LDLiangdu, Int32 BJLiangdu, Int32 frequencyLight) 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 56
+   在 WearinessExam.Examination.DeviceFacade.CloseDevices() 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 703
+
+2018-10-04 10:11:13,734 [10] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-10-04 10:11:13,734 [10] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-10-04 10:17:35,685 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 10:17:35,687 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-04 10:17:35,687 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 10:18:43,696 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 10:18:43,697 [10] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-04 10:18:43,697 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 10:45:38,629 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 10:45:38,630 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-04 10:45:38,631 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 10:56:39,430 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 10:56:39,432 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-04 10:56:39,432 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 10:57:01,907 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 10:57:01,909 [10] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-04 10:57:01,909 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 10:57:27,304 [10] ERROR WearinessExam.exe - 设备停止失败!
+2018-10-04 10:57:27,308 [10] ERROR WearinessExam.exe - System.DllNotFoundException: 无法加载 DLL“CffTest.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 WearinessExam.Examination.CffDllWrapper.ClearOutputBuffer()
+   在 WearinessExam.Examination.DeviceFacade.setLight(Int32 colorLight, Int32 Liangheibi, Int32 LDLiangdu, Int32 BJLiangdu, Int32 frequencyLight) 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 56
+   在 WearinessExam.Examination.DeviceFacade.CloseDevices() 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 703
+
+2018-10-04 10:57:27,309 [10] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-10-04 10:57:27,309 [10] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-10-04 10:58:25,808 [8] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 10:58:25,809 [8] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-04 10:58:25,809 [8] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 10:59:01,816 [8] ERROR WearinessExam.exe - 设备停止失败!
+2018-10-04 10:59:01,820 [8] ERROR WearinessExam.exe - System.DllNotFoundException: 无法加载 DLL“CffTest.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 WearinessExam.Examination.CffDllWrapper.ClearOutputBuffer()
+   在 WearinessExam.Examination.DeviceFacade.setLight(Int32 colorLight, Int32 Liangheibi, Int32 LDLiangdu, Int32 BJLiangdu, Int32 frequencyLight) 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 56
+   在 WearinessExam.Examination.DeviceFacade.CloseDevices() 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 703
+
+2018-10-04 10:59:01,820 [8] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-10-04 10:59:01,821 [8] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-10-04 15:16:22,814 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 15:16:22,815 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-04 15:16:22,815 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 15:16:49,122 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-04 15:16:55,208 [9] FATAL WearinessExam.exe - 列名 'EXAM_PARAMS' 无效。
+2018-10-04 15:16:56,875 [9] FATAL WearinessExam.exe - 列名 'EXAM_PARAMS' 无效。
+2018-10-04 15:17:05,050 [9] INFO  WearinessExam.exe - 访问受测员信息管理画面.
+2018-10-04 15:17:51,306 [9] INFO  WearinessExam.exe - 访问用户信息管理画面.
+2018-10-04 15:18:51,959 [9] FATAL WearinessExam.exe - 不能将值 NULL 插入列 'USER_ID'，表 'zhmsdb.dbo.M_USER'；列不允许有 Null 值。INSERT 失败。
+语句已终止。
+2018-10-04 15:19:03,870 [9] FATAL WearinessExam.exe - 不能将值 NULL 插入列 'USER_ID'，表 'zhmsdb.dbo.M_USER'；列不允许有 Null 值。INSERT 失败。
+语句已终止。
+2018-10-04 15:19:42,073 [9] FATAL WearinessExam.exe - 不能将值 NULL 插入列 'USER_ID'，表 'zhmsdb.dbo.M_USER'；列不允许有 Null 值。INSERT 失败。
+语句已终止。
+2018-10-04 15:20:26,416 [9] ERROR WearinessExam.exe - 设备停止失败!
+2018-10-04 15:20:26,421 [9] ERROR WearinessExam.exe - System.DllNotFoundException: 无法加载 DLL“CffTest.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 WearinessExam.Examination.CffDllWrapper.ClearOutputBuffer()
+   在 WearinessExam.Examination.DeviceFacade.setLight(Int32 colorLight, Int32 Liangheibi, Int32 LDLiangdu, Int32 BJLiangdu, Int32 frequencyLight) 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 56
+   在 WearinessExam.Examination.DeviceFacade.CloseDevices() 位置 D:\SourceCode\MedicalSystem\WearinessExam\Examination\DeviceFacade.cs:行号 703
+
+2018-10-04 15:20:26,421 [9] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-10-04 15:20:26,421 [9] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-10-04 15:47:19,936 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 15:47:19,938 [10] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-04 15:47:19,938 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 15:47:29,458 [10] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-04 15:47:38,175 [10] INFO  WearinessExam.exe - 访问用户信息管理画面.
+2018-10-04 15:48:06,790 [10] FATAL WearinessExam.exe - 不能将值 NULL 插入列 'USER_ID'，表 'zhmsdb.dbo.M_USER'；列不允许有 Null 值。INSERT 失败。
+语句已终止。
+2018-10-04 15:48:11,395 [10] FATAL WearinessExam.exe - 不能将值 NULL 插入列 'USER_ID'，表 'zhmsdb.dbo.M_USER'；列不允许有 Null 值。INSERT 失败。
+语句已终止。
+2018-10-04 15:53:37,236 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 15:53:37,237 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-04 15:53:37,237 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 15:53:42,448 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-04 15:53:44,494 [9] INFO  WearinessExam.exe - 访问用户信息管理画面.
+2018-10-04 15:54:50,882 [9] INFO  WearinessExam.exe - 用户:dyf登录系统.
+2018-10-04 15:54:55,021 [9] INFO  WearinessExam.exe - 访问受测员信息管理画面.
+2018-10-04 15:55:00,318 [9] INFO  WearinessExam.exe - 访问用户信息管理画面.
+2018-10-04 15:55:10,409 [9] INFO  WearinessExam.exe - 访问用户信息管理画面.
+2018-10-04 16:00:30,554 [9] INFO  WearinessExam.exe - 访问受测员信息管理画面.
+2018-10-04 16:00:34,238 [9] FATAL WearinessExam.exe - 列名 'EXAM_PARAMS' 无效。
+2018-10-04 16:06:40,887 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 16:06:40,889 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-04 16:06:40,889 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 16:06:51,319 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-04 16:30:34,097 [9] INFO  WearinessExam.exe - 访问用户信息管理画面.
+2018-10-04 16:49:35,125 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 16:49:35,126 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-04 16:49:35,126 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-04 16:49:40,916 [9] INFO  WearinessExam.exe - 用户:admin登录系统.

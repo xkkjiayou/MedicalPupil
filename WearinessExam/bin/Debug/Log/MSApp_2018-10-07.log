@@ -1,0 +1,44 @@
+﻿2018-10-07 22:00:22,819 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-07 22:00:22,820 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-07 22:00:22,821 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-07 22:01:59,888 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-07 22:01:59,890 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-07 22:01:59,890 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-07 22:04:05,741 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-07 22:04:05,757 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-07 22:04:05,757 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-07 22:07:56,626 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-07 22:07:56,627 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-07 22:07:56,627 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-07 22:27:55,458 [8] INFO  WearinessExam.exe - =====================================================================================
+2018-10-07 22:27:55,459 [8] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-07 22:27:55,459 [8] INFO  WearinessExam.exe - =====================================================================================
+2018-10-07 22:28:02,462 [8] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-07 22:28:35,164 [8] INFO  WearinessExam.exe - 访问受测员信息管理画面.
+2018-10-07 22:28:46,711 [8] INFO  WearinessExam.exe - 访问用户信息管理画面.
+2018-10-07 22:29:01,180 [8] INFO  WearinessExam.exe - 访问用户信息管理画面.
+2018-10-07 22:29:03,761 [8] INFO  WearinessExam.exe - 访问受测员信息管理画面.
+2018-10-07 22:29:24,432 [8] FATAL WearinessExam.exe - “WearinessExam.Examination.DeviceFacade”的类型初始值设定项引发异常。
+2018-10-07 22:30:33,173 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-07 22:30:33,174 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-07 22:30:33,174 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-10-07 22:30:38,635 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-10-07 22:30:49,680 [9] INFO  WearinessExam.exe - 访问用户信息管理画面.
+2018-10-07 22:31:02,323 [9] INFO  WearinessExam.exe - 访问用户信息管理画面.
+2018-10-07 22:31:11,259 [9] INFO  WearinessExam.exe - 访问受测员信息管理画面.
+2018-10-07 22:31:17,853 [9] INFO  WearinessExam.exe - 访问用户信息管理画面.
+2018-10-07 22:32:52,739 [9] FATAL WearinessExam.exe - System.TypeInitializationException: “WearinessExam.Examination.DeviceFacade”的类型初始值设定项引发异常。
+   在 WearinessExam.Examination.DeviceFacade.StopCaptureImage()
+   在 WearinessExam.WearinessDetectForm.StopVideo() 位置 D:\BaiduNetdiskDownload\MedicalSystem\WearinessExam\WearinessDetectForm.cs:行号 249
+   在 WearinessExam.WearinessDetectForm.StopAllTimers() 位置 D:\BaiduNetdiskDownload\MedicalSystem\WearinessExam\WearinessDetectForm.cs:行号 618
+   在 WearinessExam.WearinessDetectForm.WearinessDetectForm_FormClosed(Object sender, FormClosedEventArgs e) 位置 D:\BaiduNetdiskDownload\MedicalSystem\WearinessExam\WearinessDetectForm.cs:行号 633
+   在 System.Windows.Forms.Form.OnFormClosed(FormClosedEventArgs e)
+   在 System.Windows.Forms.Form.CheckCloseDialog(Boolean closingOnly)
+System.BadImageFormatException: 未能加载文件或程序集“daheng_xkk, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。试图加载格式不正确的程序。
+   在 WearinessExam.Examination.DeviceFacade..cctor()
+
+2018-10-07 22:32:52,895 [9] FATAL WearinessExam.exe - “WearinessExam.Examination.DeviceFacade”的类型初始值设定项引发异常。
+2018-10-07 23:13:26,479 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-07 23:13:26,480 [10] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-10-07 23:13:26,480 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-10-07 23:13:32,487 [10] INFO  WearinessExam.exe - 用户:admin登录系统.

@@ -1,0 +1,72 @@
+﻿2018-03-24 08:32:48,184 [1] INFO  WearinessExam.exe - =====================================================================================
+2018-03-24 08:32:48,185 [1] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-03-24 08:32:48,185 [1] INFO  WearinessExam.exe - =====================================================================================
+2018-03-24 08:32:58,045 [1] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-03-24 08:32:58,380 [4] INFO  WearinessExam.exe - disconnectCamera.
+2018-03-24 08:33:00,226 [4] INFO  WearinessExam.exe - initCamera.
+2018-03-24 08:33:01,468 [4] INFO  WearinessExam.exe - getComPort.
+2018-03-24 08:33:03,191 [4] INFO  WearinessExam.exe - OnCommunicate.
+2018-03-24 08:33:03,191 [4] INFO  WearinessExam.exe - IsCommflag.
+2018-03-24 08:33:03,193 [4] INFO  WearinessExam.exe - QueRen_But2.
+2018-03-24 08:33:03,193 [4] INFO  WearinessExam.exe - 自检成功!
+2018-03-24 08:34:10,132 [1] ERROR WearinessExam.exe - 设备停止失败!
+2018-03-24 08:34:10,132 [1] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-03-24 08:34:10,132 [1] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-03-24 08:34:23,413 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-03-24 08:34:23,416 [10] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-03-24 08:34:23,416 [10] INFO  WearinessExam.exe - =====================================================================================
+2018-03-24 08:34:30,146 [10] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-03-24 08:34:31,057 [6] INFO  WearinessExam.exe - disconnectCamera.
+2018-03-24 08:34:31,136 [6] INFO  WearinessExam.exe - initCamera.
+2018-03-24 08:34:31,522 [6] INFO  WearinessExam.exe - getComPort.
+2018-03-24 08:34:32,663 [6] INFO  WearinessExam.exe - OnCommunicate.
+2018-03-24 08:34:32,664 [6] INFO  WearinessExam.exe - IsCommflag.
+2018-03-24 08:34:32,664 [6] INFO  WearinessExam.exe - QueRen_But2.
+2018-03-24 08:34:32,664 [6] INFO  WearinessExam.exe - 自检成功!
+2018-03-24 08:40:32,399 [10] ERROR WearinessExam.exe - 设备停止失败!
+2018-03-24 08:40:32,399 [10] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-03-24 08:40:32,399 [10] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-03-24 08:49:38,995 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-03-24 08:49:38,996 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-03-24 08:49:38,996 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-03-24 08:49:44,365 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-03-24 08:49:44,767 [11] INFO  WearinessExam.exe - disconnectCamera.
+2018-03-24 08:49:44,878 [11] INFO  WearinessExam.exe - initCamera.
+2018-03-24 08:49:45,229 [11] INFO  WearinessExam.exe - getComPort.
+2018-03-24 08:49:46,296 [11] INFO  WearinessExam.exe - OnCommunicate.
+2018-03-24 08:49:46,296 [11] INFO  WearinessExam.exe - IsCommflag.
+2018-03-24 08:49:46,296 [11] INFO  WearinessExam.exe - QueRen_But2.
+2018-03-24 08:49:46,296 [11] INFO  WearinessExam.exe - 自检成功!
+2018-03-24 08:50:56,151 [9] ERROR WearinessExam.exe - 设备停止失败!
+2018-03-24 08:50:56,151 [9] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-03-24 08:50:56,151 [9] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-03-24 09:07:07,100 [8] INFO  WearinessExam.exe - =====================================================================================
+2018-03-24 09:07:07,101 [8] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-03-24 09:07:07,101 [8] INFO  WearinessExam.exe - =====================================================================================
+2018-03-24 09:07:12,645 [8] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-03-24 09:07:13,108 [10] INFO  WearinessExam.exe - disconnectCamera.
+2018-03-24 09:07:13,137 [10] INFO  WearinessExam.exe - initCamera.
+2018-03-24 09:07:13,477 [10] INFO  WearinessExam.exe - getComPort.
+2018-03-24 09:07:14,587 [10] INFO  WearinessExam.exe - OnCommunicate.
+2018-03-24 09:07:14,588 [10] INFO  WearinessExam.exe - IsCommflag.
+2018-03-24 09:07:14,588 [10] INFO  WearinessExam.exe - QueRen_But2.
+2018-03-24 09:07:14,588 [10] INFO  WearinessExam.exe - 自检成功!
+2018-03-24 09:07:37,059 [8] INFO  WearinessExam.exe - 访问受测员信息管理画面.
+2018-03-24 09:07:39,515 [8] INFO  WearinessExam.exe - 访问受测员信息管理画面.
+2018-03-24 09:07:54,368 [8] ERROR WearinessExam.exe - 设备停止失败!
+2018-03-24 09:07:54,369 [8] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-03-24 09:07:54,369 [8] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
+2018-03-24 09:08:33,742 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-03-24 09:08:33,743 [9] INFO  WearinessExam.exe - =============================     应用程序启动      =================================
+2018-03-24 09:08:33,743 [9] INFO  WearinessExam.exe - =====================================================================================
+2018-03-24 09:08:39,103 [9] INFO  WearinessExam.exe - 用户:admin登录系统.
+2018-03-24 09:08:39,575 [11] INFO  WearinessExam.exe - disconnectCamera.
+2018-03-24 09:08:39,608 [11] INFO  WearinessExam.exe - initCamera.
+2018-03-24 09:08:39,965 [11] INFO  WearinessExam.exe - getComPort.
+2018-03-24 09:08:40,920 [11] INFO  WearinessExam.exe - OnCommunicate.
+2018-03-24 09:08:40,920 [11] INFO  WearinessExam.exe - IsCommflag.
+2018-03-24 09:08:40,921 [11] INFO  WearinessExam.exe - QueRen_But2.
+2018-03-24 09:08:40,921 [11] INFO  WearinessExam.exe - 自检成功!
+2018-03-24 09:08:46,552 [9] ERROR WearinessExam.exe - 设备停止失败!
+2018-03-24 09:08:46,552 [9] ERROR WearinessExam.exe - 退出系统,关闭设备失败!
+2018-03-24 09:08:46,552 [9] INFO  WearinessExam.exe - =============================     应用程序关闭      ==================================
